@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sviluppo di una pagina web</title>
   </head>
-  <body style="background-color: rgb(238, 130, 229)">
+  <body style="background-color: rgb(225, 130, 238)">
 
     
-      <div>
+      <header>
       <img src="logo.svg" />
       <h1>Epicode - il blog dei developer</h1>
-      <h3>home</h3>
-      <h3><a href="#">Home </a>- <a href="#" >articoli</a> - <a href="#" > lavora con noi</a></h3>
-      
-    </div>
+      <nav>
+<ul>
+<li><a href="#">Home </a></li>
+<li><a href="#">articoli</a></li>
+<li><a href="#"> lavora con noi</a></li>
+</ul>
+</nav>
+      </header>
+
    <hr color="black">
-<div>
+
+<main>
+  <article>
+    <div>
     <h3>Come creare un template per i post di Mario Rossi</h3>
 
     <p>
@@ -31,7 +39,8 @@
       <li>Contenuti centrali variabili del tag &#60;main&#62;</li>
       <li>Contenuti di fine pagina comuni, da inserire nel tag &#60;footer&#62;</li>
     </ul>
-</div>
+    </div>
+
 <div>
     <h3>Formattazione del codice</h3>
 
@@ -45,7 +54,7 @@
 </div>
 
 
-<div style="align-content: center;">
+<div>
     <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totole.</p>
 
     <table border="3" cellpadding="15" cellspacing="20" >
@@ -81,7 +90,8 @@
           <td>76%</td>
         </tr>
       </table>
-</div>
+    </div>
+
 <br>
 <hr color="black">
 
@@ -93,54 +103,48 @@
     </p>
 
 
-
-<iframe width="789" height="444" src="https://www.youtube.com/embed/KMxo3T_MTvY" title="VS Code in 100 Seconds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"></iframe>
+<iframe width="789" height="444" src="https://www.youtube.com/embed/KMxo3T_MTvY" title="VS Code in 100 Seconds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
 </div>
-
-<div>
-  <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter!</p>
-
-
-  
-    <form>
-    <label for="email">email:</label>
-    <br>
-    <input id="email"  type="email" placeholder="Inserisci l'email">
-</div>
-
-<br>
-
-<div>
-<button tyoe="button">Iscriviti</button>
- </div>
-
-<br>
-
- <div>
 
 <section>
- <article>
+
+  <h3>Novità</h3>
+  <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter!</p>
+
+</section>
+</articol>
+<div>
+
+    <form>
+      <fieldset style="display: block; width:761px; padding: 10pxpx;">
+    <label for="email">Email:</label>
+    <br>
+    <input id="email"  type="email" placeholder="Inserisci l'email">
+  
+<button type="submit">Iscriviti!</button>
+ </form>
+</fieldset>
+</div> 
+
+<aside>
+<div>
     <h3>Articoli correlati</h3> 
     <p><a href="#">validare il codice HTML</a></p>
         <p>Categoria: develop</p>
             <p>Data: 18-09-2020</p>
-</article>  
+ 
 
-<article>
+
 <p><a href="#">Correggere la sintassi</a></p>
 <p>Categoria: develop</p>
 <p>Data:16-09-2020</p>
-</article>
-</section>
-  
 
-<article>
   <p><a href="#">Meno Kb nella pagina</a></p>
   <p>Categoria: ottimizzazione</p>
   <p>Data:30-09-2020</p>
-  </article>
-  </section>
-  </div>  
+  </div>
+</aside>
+</main>  
 
 <hr color="black">
 
