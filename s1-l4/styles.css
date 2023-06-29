@@ -5,14 +5,17 @@ body {
 }
 
 .testa {
-  background-color: aqua;
-  width: 450px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(17, 9, 250) 0%, rgb(71, 71, 136) 50%, rgba(0, 212, 255, 1) 100%);
+  width: 550px;
   height: 350px;
-
+  border: solid grey;
   padding: 5px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
 }
 
 article {
@@ -25,13 +28,24 @@ article {
 }
 
 table {
-  border: solid;
+  border-collapse: collapse;
   display: inline block;
-  padding: 5px;
+
   margin: 0 auto;
   text-align: center;
-
   margin-inline: 100px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+tr:nth-child(even) td {
+  background-color: lightgray;
+}
+tr:first-child th {
+  background-color: lightcyan;
 }
 
 .container {
@@ -45,19 +59,21 @@ table {
 }
 
 .wbox {
+  border: solid grey;
   background-color: white;
-  width: 450px;
-  height: 1740px;
+  width: 550px;
+  height: 1600px;
   padding: 5px;
   margin: 0 auto;
   text-align: center;
 }
 
 footer {
-  background-color: aqua;
-  width: 450px;
-  height: 90px;
-
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(17, 9, 250) 0%, rgb(71, 71, 136) 50%, rgba(0, 212, 255, 1) 100%);
+  font-weight: 700;
+  width: 550px;
+  height: 50px;
   padding: 5px;
   margin: 0 auto;
   text-align: center;
@@ -67,7 +83,16 @@ footer {
 .gbox {
   background-color: lightgray;
   width: 440px;
-  height: 110px;
+  height: 90px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.gbox1 {
+  background-color: lightgray;
+  width: 440px;
+  height: 100px;
   padding: 5px;
   margin: 0 auto;
   text-align: center;
@@ -76,4 +101,38 @@ footer {
 
 button {
   background-color: blue;
+  color: white;
+}
+
+code {
+  background-color: #e3e3e3;
+  border: 1px solid #969494;
+  border-radius: 5px;
+}
+
+header a {
+  color: white;
+}
+
+ul li {
+  font-size: 15px;
+  line-height: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-position: inside;
+}
+
+iframe {
+  width: 500px;
+  height: 400px;
+  margin-bottom: 2em;
+  border-radius: 20px;
+}
+
+ul,
+ol {
+  margin-left: 3em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-position: inside;
 }
