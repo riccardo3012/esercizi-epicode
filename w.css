@@ -1,0 +1,100 @@
+body {
+  background-image: url(sfondo.png);
+  background-repeat: repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.testa {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(148, 145, 221) 0%, rgb(8, 8, 54) 50%, rgba(0, 212, 255, 1) 100%);
+  width: 450px;
+  height: 350px;
+  border: solid grey;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+article {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: left;
+  margin-inline: 150px;
+}
+
+table {
+  border-collapse: collapse;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  margin-inline: 100px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) td {
+  background-color: lightgray;
+}
+
+tr:first-child th {
+  background-color: lightcyan;
+}
+
+.container {
+  background-color: aqua;
+  width: 450px;
+  height: 350px;
+  border: 5px solid;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wbox {
+  border: solid grey;
+  background-color: white;
+  width: 450px;
+  height: 1740px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  background-color: aqua;
+  width: 400px;
+  height: 90px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.gbox {
+  background-color: lightgray;
+  width: 440px;
+  height: 110px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}
+
+code {
+  background-color: #e3e3e3;
+  border: 1px solid #969494;
+  border-radius: 5px;
+}
