@@ -58,3 +58,7 @@ hr {
   padding-left: 5px;
   line-height: 6px;
 }
+
+.icon {
+  text-decoration: color(white red green blue);
+}
